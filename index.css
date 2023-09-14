@@ -1,0 +1,335 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  align-items: center;
+}
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  background-color: #eeeeee;
+  height: 3rem;
+  padding: 10px;
+}
+
+.location {
+  margin-left: 43%;
+  display: flex;
+  flex-direction: column;
+}
+
+.location span {
+  padding-top: 0.5rem;
+  margin-right: -2rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
+.call {
+  margin-right: 10%;
+}
+
+.header2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+
+.header2 img {
+  width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  position: sticky;
+}
+
+.menu {
+  display: flex;
+  font-size: 5rem;
+  position: sticky;
+}
+
+.menu-list2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.menu-list2 li a {
+  color: rgb(67, 26, 26);
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+/* main part */
+
+.heading {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 4rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideshow img {
+  margin-top: 0.35rem;
+  max-width: 100%;
+}
+
+.work h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.work-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-img img {
+  max-width: 11%;
+  object-fit: contain;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.interiors h2 {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.interiors img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.shop-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.shop-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.left-btn button {
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.right-btn button {
+  background-color: white;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.services {
+  background-image: url("./images/Interior_Design_Materials.jpg");
+  background-color: #eeeeee;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.services h2 {
+  display: flex;
+  position: relative;
+  font-size: 3rem;
+  font-weight: 200;
+  padding-left: 35rem;
+  right: 2rem;
+  padding-right: 30rem;
+  margin-bottom: 3rem;
+}
+
+.services a {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 5rem;
+}
+
+.consultation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.owner {
+  width: 40%;
+  flex: end;
+}
+
+.owner img {
+  padding: 2rem;
+  padding-left: 15rem;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.book {
+  width: 50%;
+  padding-right: 10rem;
+}
+
+.book h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.book h5 {
+  padding-left: 1rem;
+  border-left: 2px solid black;
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+.book p {
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: gray;
+  padding-bottom: 1rem;
+}
+
+.book button {
+  color: black;
+  background-color: white;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 0;
+}
+
+/* Footer Style */
+
+footer {
+  background-color: rgb(54, 39, 39);
+  color: white;
+  display: flex;
+  align-items: first-baseline;
+  justify-content: space-around;
+  height: 20rem;
+  padding-top: 5rem;
+}
+
+.customer {
+  font-size: 0.8rem;
+}
+
+.customer p {
+  font-size: 1rem;
+}
+
+.customer-list {
+  padding: 0;
+}
+
+.customer-list li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.about {
+  font-size: 0.8rem;
+}
+
+.about p {
+  font-size: 1rem;
+}
+
+.about-list {
+  padding: 0;
+}
+
+.about li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.visit {
+  font-size: 0.8rem;
+}
+
+.visit p {
+  font-size: 1rem;
+}
+
+.visit-list {
+  padding: 0;
+}
+
+.visit li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.form {
+  font-size: 1rem;
+}
+
+.form-list input {
+  background-color: rgb(54, 39, 39);
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.form-list button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-left: 1rem;
+}
